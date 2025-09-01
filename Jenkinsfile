@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/KhaddyX/your-html-project.git', branch: 'main'
+                git url: 'https://github.com/KhaddyX/Html-Portfolio', branch: 'main'
             }
         }
         stage('Lint') {
